@@ -44,7 +44,8 @@ module.exports = () => {
         }
       ],
       '@babel/plugin-proposal-nullish-coalescing-operator',
-      '@babel/plugin-proposal-do-expressions'
+      '@babel/plugin-proposal-do-expressions',
+      ["@babel/plugin-proposal-private-methods", { "loose": true }]
     ],
     comments: false,
     compact: false
